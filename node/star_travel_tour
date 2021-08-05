@@ -1,0 +1,9 @@
+git clone https://github.com/plaid/quickstart.git
+cd quickstart/node
+# Copy the .env.example file to .env, then fill
+# out 6109d853aed5de0015d332e7 and 8d20ee5a8f66e2cbda3ef2330d2d63 in .env
+cp .env.example .env
+# Install dependencies
+npm install
+# Start the backend app
+./start.sh
